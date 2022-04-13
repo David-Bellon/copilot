@@ -5,7 +5,9 @@ y como habría que modificar estos. Y en el otro archivo "limpieza" se encuentra
 
 
 -Primero obtenemos una descripción de como son los datos que se encuentran en nustro dataset
-![image info](imagenes\1.png)
+
+![1](https://user-images.githubusercontent.com/91338053/163276163-48fabbdc-8f9a-4ec1-8345-685e592450fc.PNG)
+
 Como podemos observar los tipos de datos que tenemos son ints(numeros enteros), floats(Decimales) y objetos(En pandas se le llaman así a los strings), a su vez vemos que todos los tipos de
 datos estan bien por lo que en este caso no habría que tocar nada.
 
@@ -14,8 +16,14 @@ a esto. En la mayoria de casos habría que quitar las filas de valores nulos o a
 
 
 -Ahora vamos a ver si hay dupicados en columnas que no nos interesan. Si observamos el archivo de datos, las unicas columnas que nos interesan que no dispongan de valores duplicados son id, nombre de la cancion y track id. Para esto vamos a mirar si existe algun valor duplicado en estas columnas, de ser el caso eliminaríamos uno de los dos. Para ello miramos si la longitud de la lista de todos los datos de la columna es igual a la lista pero detro de un conjunto ya que se borran los duplicados. 
-![image info](imagenes\2.png)
+<<<<<<< HEAD
+
 Como podemos ver hay el mismo numero de datos por lo que no exisen valores duplicados y no debemos hacer nada.
+=======
+![2](https://user-images.githubusercontent.com/91338053/163276181-96fd28d8-7760-49ba-b8e2-9f8bc133e36d.PNG)
+
+Como podemos ver hay el mismo numero de datos por lo que no exisen valores duplicados.
+>>>>>>> 29c64bc3b53442c3dce1f1bc532aa15c25cee0da
 
 -Vamos a ver si existiera algún dato en alguna de las columnas que resaltara del resto ya por ser muy elevado o muy bajo. Para ello miramos los datos estadisticos de cada columna
 Podemos ver si miramos detenidamente que no hay ningun valor muy disperso y que se salga mucho de lo corriente en ninguna columna, sobre todo fijandonos en valores maximos y minimos y sin tener en cuenta coumnas columnas que llevan numero concretos enteros.
