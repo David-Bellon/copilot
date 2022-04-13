@@ -15,5 +15,53 @@ a esto. En la mayoria de casos habría que quitar las filas de valores nulos o a
 
 -Ahora vamos a ver si hay dupicados en columnas que no nos interesan. Si observamos el archivo de datos, las unicas columnas que nos interesan que no dispongan de valores duplicados son id, nombre de la cancion y track id. Para esto vamos a mirar si existe algun valor duplicado en estas columnas, de ser el caso eliminaríamos uno de los dos. Para ello miramos si la longitud de la lista de todos los datos de la columna es igual a la lista pero detro de un conjunto ya que se borran los duplicados. 
 ![image info](imagenes\2.png)
-Como podemos ver hay el mismo numero de datos por lo que no exisen valores duplicados.
+Como podemos ver hay el mismo numero de datos por lo que no exisen valores duplicados y no debemos hacer nada.
 
+-Vamos a ver si existiera algún dato en alguna de las columnas que resaltara del resto ya por ser muy elevado o muy bajo. Para ello miramos los datos estadisticos de cada columna
+Podemos ver si miramos detenidamente que no hay ningun valor muy disperso y que se salga mucho de lo corriente en ninguna columna, sobre todo fijandonos en valores maximos y minimos y sin tener en cuenta coumnas columnas que llevan numero concretos enteros.
+
+-Para añadir mas peso a esto vamos a ver los histogramas de cada una de las columnas importantes y vemos como es su distribucion y que podemos sacar de cada una de ellas. Solo nos centraremos en las que tengan valores reseñables.
+
+Popularidad
+//añadir popularidad
+Como podemos observar en un principio podriamos decir que hay elementos dispersos por abajo pero teniendo en cuenta que los datos que tenemos son de las 50 canciones más escuchadas del año tiene sentido que haya pocas populares.
+
+Danzabilidad
+//Danzabilidad
+Podemos observar que no hay mucha dispersion y es mas una distribucion normal
+
+Energia
+//Energia
+Mas de lo mismo con energía
+
+Key
+//Key
+Mas elementos en los extremos pero tampoco excesivos como para considerarlos outsiders.
+
+Volumen
+//voulumen
+Se tiende a canciones más altas pero tambien este es un apartado que no representa mucho ya que al tratarse de canciones dependiendo del género son de un estio u otro. Lo que si se puede sacar de aqui es que las cancioones con mas decibelios son las que mas reproducciones tienen en general.
+
+Speechiness
+//speech
+Parecido a lo que ocurre con el tono, abundancia en un lado y pocos en el otro extremo sin ningun fuera de serie concreto.
+
+Acustico
+//acustico
+Más de lo mismo que los dos anteriores.
+
+Liveness
+//ivenes
+Predominancia de un tipo muy clara lo que indica que las mas escuchadas son las que mayor alegria trasmiten pero ninguna cancion con la que se puede afirmar que hay un error o algo por el estilo.
+
+Valence
+//Vaence
+Distribucion normal casi perfecta.
+
+Tempo
+//Tempo
+Mas de lo mismo, muy distribuida.
+
+Duracion
+//Duracion
+Distribucion normal similar a las anteriores

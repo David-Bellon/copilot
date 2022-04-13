@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def descripcion(data):
@@ -14,5 +16,14 @@ def unicos(data):
     print("track_id")
     print(len(data["track_id"]) == len(set(data["track_id"])))
 
+def estadistica_columna(data):
+    print(data.describe())
+
+def graficar(data):
+    for column in data:
+        sns.histplot(x=data[column])
+        plt.show()
+
+
 data = pd.read_csv("copilot\spoti.csv")
-unicos(data)
+graficar(data)
