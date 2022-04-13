@@ -23,7 +23,5 @@ def graficar(data):
     for column in data:
         sns.histplot(x=data[column])
         plt.show()
-
-
-data = pd.read_csv("copilot\spoti.csv")
-graficar(data)
+    # Aqui se habria añadido el codigo correspondiente si se hubiera necesitado borrar filas 
+    # o añadir informacion
