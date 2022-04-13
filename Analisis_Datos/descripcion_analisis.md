@@ -5,7 +5,7 @@ y como habría que modificar estos. Y en el otro archivo "limpieza" se encuentra
 
 
 -Primero obtenemos una descripción de como son los datos que se encuentran en nustro dataset
-//Adjuntar imagen 1//
+![image info](copilot\Analisis_Datos\imagenes\1.PNG)
 Como podemos observar los tipos de datos que tenemos son ints(numeros enteros), floats(Decimales) y objetos(En pandas se le llaman así a los strings), a su vez vemos que todos los tipos de
 datos estan bien por lo que en este caso no habría que tocar nada.
 
@@ -13,4 +13,7 @@ datos estan bien por lo que en este caso no habría que tocar nada.
 a esto. En la mayoria de casos habría que quitar las filas de valores nulos o añadir a dichos valores nulos algunos datos de los que podamos obtener informacion.
 
 
--Ahora vamos a ver si hay dupicados en columnas que no nos interesan. Si observamos el archivo de datos, las unicas columnas que nos interesan 
+-Ahora vamos a ver si hay dupicados en columnas que no nos interesan. Si observamos el archivo de datos, las unicas columnas que nos interesan que no dispongan de valores duplicados son id, nombre de la cancion y track id. Para esto vamos a mirar si existe algun valor duplicado en estas columnas, de ser el caso eliminaríamos uno de los dos. Para ello miramos si la longitud de la lista de todos los datos de la columna es igual a la lista pero detro de un conjunto ya que se borran los duplicados. 
+![image info](copilot\Analisis_Datos\imagenes\2.PNG)
+Como podemos ver hay el mismo numero de datos por lo que no exisen valores duplicados.
+
