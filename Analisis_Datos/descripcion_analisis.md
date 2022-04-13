@@ -4,14 +4,14 @@ En la carpeta codigo hay dos archivos uno llamado "analisis" en el cual se recog
 y como habría que modificar estos. Y en el otro archivo "limpieza" se encuentra el código por el cual se ha pasado los datos antes de realizar cualquier tipo de acción con ellos.
 
 
--Primero obtenemos una descripción de como son los datos que se encuentran en nustro dataset
+- Primero obtenemos una descripción de como son los datos que se encuentran en nustro dataset
 
 ![1](https://user-images.githubusercontent.com/91338053/163276163-48fabbdc-8f9a-4ec1-8345-685e592450fc.PNG)
 
 Como podemos observar los tipos de datos que tenemos son ints(numeros enteros), floats(Decimales) y objetos(En pandas se le llaman así a los strings), a su vez vemos que todos los tipos de
 datos estan bien por lo que en este caso no habría que tocar nada.
 
--Con esta misma función podemos ver si existen valores nulos en alguna de nuestras filas. Y como podemos observar no hay ningún valor nulo por lo que tampoco haremos nada respecto
+- Con esta misma función podemos ver si existen valores nulos en alguna de nuestras filas. Y como podemos observar no hay ningún valor nulo por lo que tampoco haremos nada respecto
 a esto. En la mayoria de casos habría que quitar las filas de valores nulos o añadir a dichos valores nulos algunos datos de los que podamos obtener informacion.
 
 
