@@ -31,12 +31,10 @@ Como podemos observar en un principio podriamos decir que hay elementos disperso
 
 Danzabilidad
 ![danza](https://user-images.githubusercontent.com/91338053/163281460-db9ecb28-4843-4dd0-b83b-ac0e257bbb44.PNG)
-
 Podemos observar que no hay mucha dispersion y es mas una distribucion normal
 
-Energia
+<<<Head Energia
 ![energia](https://user-images.githubusercontent.com/91338053/163281484-d3e972fc-8865-41b6-a8f2-d2e5ea72f949.PNG)
-
 Mas de lo mismo con energía
 
 Key
