@@ -26,6 +26,7 @@ Podemos ver si miramos detenidamente que no hay ningun valor muy disperso y que 
 -Para añadir mas peso a esto vamos a ver los histogramas de cada una de las columnas importantes y vemos como es su distribucion y que podemos sacar de cada una de ellas. Solo nos centraremos en las que tengan valores reseñables.
 
 ## **Popularidad**  
+![popuar](https://user-images.githubusercontent.com/91338053/163282705-055eba5a-43f8-4221-8bbb-40623aaf0632.PNG)
 
 Como podemos observar en un principio podriamos decir que hay elementos dispersos por abajo pero teniendo en cuenta que los datos que tenemos son de las 50 canciones más escuchadas del año tiene sentido que haya pocas populares.  
 
