@@ -1,3 +1,5 @@
+# Pasos seguidos y a seguir  
+
 En este texto se detalla paso por paso el proceso que se ha seguido y que se debería seguir antes una situacion similar. Para apoyar las ideas se han ido adjuntando imágenes.
 
 En la carpeta codigo hay dos archivos uno llamado "analisis" en el cual se recogen todas las funciones que habria que ir mirando una a una para tomar reflejo de como nos llegan los datos
