@@ -16,7 +16,7 @@ a esto. En la mayoria de casos habría que quitar las filas de valores nulos o a
 
 
 -Ahora vamos a ver si hay dupicados en columnas que no nos interesan. Si observamos el archivo de datos, las unicas columnas que nos interesan que no dispongan de valores duplicados son id, nombre de la cancion y track id. Para esto vamos a mirar si existe algun valor duplicado en estas columnas, de ser el caso eliminaríamos uno de los dos. Para ello miramos si la longitud de la lista de todos los datos de la columna es igual a la lista pero detro de un conjunto ya que se borran los duplicados. 
-![2](https://user-images.githubusercontent.com/91338053/163281265-1f67e1d9-de6c-41a5-9e11-c30223c2755f.PNG)
+![2](https://user-images.githubusercontent.com/91338053/163281265-1f67e1d9-de6c-41a5-9e11-c30223c2755f.PNG)  
 Como podemos ver hay el mismo numero de datos por lo que no exisen valores duplicados y no debemos hacer nada.
 
 -Vamos a ver si existiera algún dato en alguna de las columnas que resaltara del resto ya por ser muy elevado o muy bajo. Para ello miramos los datos estadisticos de cada columna
