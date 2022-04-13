@@ -78,4 +78,8 @@ Mas de lo mismo, muy distribuida.
 ## **Duracion**  
 ![duracion](https://user-images.githubusercontent.com/91338053/163281577-78aa9655-be0d-4d36-a09b-857cf6404812.PNG)  
 
-Distribucion normal similar a las anteriores
+Distribucion normal similar a las anteriores  
+
+# Conclusión
+Dado que los datos de nuestro fichero son muy buenos y carecen de errores ni nada de lo comentado anteriormente, no ha sido necesario el manipular estos, aún así se han seguido los pasos que habría que haber reaizado de manera habitual al enfrentarnos a esta situación de lectura e inerpretación de datos.
+El codigo para la optención de las imágenes presentes puede ser consultado en la carpeta código de esta misma sección.
