@@ -1,4 +1,4 @@
-# Pasos seguidos y a seguir  
+# Pasos seguidos y a seguir al analizar datos de un fichero
 
 En este texto se detalla paso por paso el proceso que se ha seguido y que se debería seguir antes una situacion similar. Para apoyar las ideas se han ido adjuntando imágenes.
 
