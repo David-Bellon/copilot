@@ -25,7 +25,7 @@ Podemos ver si miramos detenidamente que no hay ningun valor muy disperso y que 
 
 -Para añadir mas peso a esto vamos a ver los histogramas de cada una de las columnas importantes y vemos como es su distribucion y que podemos sacar de cada una de ellas. Solo nos centraremos en las que tengan valores reseñables.
 
-**Popularidad**
+**Popularidad**  
 
 Como podemos observar en un principio podriamos decir que hay elementos dispersos por abajo pero teniendo en cuenta que los datos que tenemos son de las 50 canciones más escuchadas del año tiene sentido que haya pocas populares.
 
@@ -33,46 +33,46 @@ Como podemos observar en un principio podriamos decir que hay elementos disperso
 ![danza](https://user-images.githubusercontent.com/91338053/163281460-db9ecb28-4843-4dd0-b83b-ac0e257bbb44.PNG)  
 Podemos observar que no hay mucha dispersion y es mas una distribucion normal
 
-**Energia**
+**Energia**  
 ![energia](https://user-images.githubusercontent.com/91338053/163281484-d3e972fc-8865-41b6-a8f2-d2e5ea72f949.PNG)  
 Mas de lo mismo con energía
 
-**Key**
+**Key**  
 ![key](https://user-images.githubusercontent.com/91338053/163281497-b4b88ae8-7167-4013-a791-bf0f4545c5e3.PNG)  
 
 Mas elementos en los extremos pero tampoco excesivos como para considerarlos outsiders.
 
-**Volumen**
+**Volumen**  
 ![volumen](https://user-images.githubusercontent.com/91338053/163281511-fc1c74a7-1785-4ef3-bfaa-fa13215390ad.PNG)  
 
 Se tiende a canciones más altas pero tambien este es un apartado que no representa mucho ya que al tratarse de canciones dependiendo del género son de un estio u otro. Lo que si se puede sacar de aqui es que las cancioones con mas decibelios son las que mas reproducciones tienen en general.
 
-**Speechiness**
+**Speechiness**  
 ![speech](https://user-images.githubusercontent.com/91338053/163281516-3cc42771-f55f-4a31-a2a1-e113d6d06daf.PNG)  
 
 Parecido a lo que ocurre con el tono, abundancia en un lado y pocos en el otro extremo sin ningun fuera de serie concreto.
 
-**Acustico**
+**Acustico**  
 ![acustico](https://user-images.githubusercontent.com/91338053/163281537-9713b1b9-cd32-41b6-be6c-241e315e66ba.PNG)  
 
 Más de lo mismo que los dos anteriores.
 
-**Liveness**
+**Liveness**  
 ![liveness](https://user-images.githubusercontent.com/91338053/163281545-e1c72a39-bfed-4be8-bd9f-8791d2a2a554.PNG)  
 
 Predominancia de un tipo muy clara lo que indica que las mas escuchadas son las que mayor alegria trasmiten pero ninguna cancion con la que se puede afirmar que hay un error o algo por el estilo.
 
-**Valence**
+**Valence**  
 ![valence](https://user-images.githubusercontent.com/91338053/163281556-857179a9-9a7e-4415-92bc-aec5ebf90c17.PNG)  
 
 Distribucion normal casi perfecta.
 
-**Tempo**
+**Tempo**  
 ![tempo](https://user-images.githubusercontent.com/91338053/163281568-9c297a86-5971-421f-bd15-576f965e082f.PNG)  
 
 Mas de lo mismo, muy distribuida.
 
-**Duracion**
+**Duracion**  
 ![duracion](https://user-images.githubusercontent.com/91338053/163281577-78aa9655-be0d-4d36-a09b-857cf6404812.PNG)  
 
 Distribucion normal similar a las anteriores
