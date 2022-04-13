@@ -29,7 +29,7 @@ Podemos ver si miramos detenidamente que no hay ningun valor muy disperso y que 
 
 Como podemos observar en un principio podriamos decir que hay elementos dispersos por abajo pero teniendo en cuenta que los datos que tenemos son de las 50 canciones más escuchadas del año tiene sentido que haya pocas populares.
 
-**Danzabilidad**
+**Danzabilidad**  
 ![danza](https://user-images.githubusercontent.com/91338053/163281460-db9ecb28-4843-4dd0-b83b-ac0e257bbb44.PNG)  
 Podemos observar que no hay mucha dispersion y es mas una distribucion normal
 
