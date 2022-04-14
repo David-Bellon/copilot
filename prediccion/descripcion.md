@@ -2,11 +2,14 @@
 ## Introducción
 En este apartado hemos intentado diseñar un modelo con el cual nos permita predecir la poplaridad de una canción basada en distintos rasgos. cabe añadir antes de empezar que el archivo de los datos es de solo 50 filas por lo que no se esperan buenos resultados de ante mano.  
 Para ello lo primero que hemos realizado es observar la relacion que existen entre las variables a traves de un mapa de correlaciones como el siguiente  
-//Añadir iagen calor  
+![ca](https://user-images.githubusercontent.com/91338053/163430861-acb5d4ee-54e9-4a1b-a25b-43073d82c82d.PNG)  
+
 Como podemos observar si nos fijamos en la columna de de popularidad que es la que nos interesa veremos que hay poca relación entre cualquier variable y esta, lo que nos indica con antelación que la elaboración de un modelo para la predicción de este dato no arroja muy buen futuro, aun así seguiremos adelante ya que es interesante ver el proceso y la predicción de otro dato carece de mucho sentido.  
 
 El siguiente paso ha sido realizar esta comparacion pero de manera gráfica para observar si existe alguna relación tanto lineal como inversa de alguno de los datos. Además, nos permite ver la distribución de cada una de las variables, nuestro objetivo será el de que se asemjen lo mas posible a una distribución normal.  
-Las imágenes ya se han tomado con anterioridad y se encuentran en la carpeta de Analisis de Datos asi como en el texto adjuntado en dicha carpeta. Como podemos observar algunas distribuciones comparten semejanza con una distribución normal y otras con una logaritmica por lo que se procederá a corregir estos datos.
+Las imágenes ya se han tomado con anterioridad y se encuentran en la carpeta de Analisis de Datos asi como en el texto adjuntado en dicha carpeta. 
+![pair](https://user-images.githubusercontent.com/91338053/163430954-b0ec8341-7cd6-40ec-aa16-02c491f22692.PNG)  
+Como podemos observar algunas distribuciones comparten semejanza con una distribución normal y otras con una logaritmica por lo que se procederá a corregir estos datos.
 
 ## Modelos
 Hemos decidido usar dos modelos diferentes, regresión lineal y bosques aleatorios para disponer de dos modelos diferentes y ver cual de los dos trabaja mejor en esta situación. 
@@ -24,11 +27,11 @@ Al contrario que con el modelo de regresión lineal, en este modelo no haría fa
 ## Errores e Interpreación
 Una vez obenidos los datos de la predicción hemos calculado el error de estos con los valores que deberían haberse obtenido en realidad y hemos realizado tanto un histograma del error como el valor del r cuadrado de cada modelo
 ### Regresión Lineal 
-//Foto erro regfresion
+![lr](https://user-images.githubusercontent.com/91338053/163430992-91a53cb4-0048-4a06-a927-cc5b7a722fb5.PNG)  
 Como podemos observar la mayoria de los datos se encuentran respecto a la media pero es verdad que la dispersión de los valores es muy grande siendo la amplitud del erro de 30 puntos por arriba y por abajo. Además el r cuadrado arroja un valor negativo y no muy favorable pero no es del todo concluyente ya que en muchas ocasiones no hay que tomar el valor de este como validación de los datos.
 
 ### Bosque Aleatorio
-//foot
+![rf](https://user-images.githubusercontent.com/91338053/163431020-8f1dccf3-47be-4b00-bca6-b21ce26ce208.PNG)  
 Como se observa el gráfico es similar al anterior pero esta vez la amplitid de los fallos es mucho menor, arrojando un fallo de 7 por abajo y un error maximo por la derecha de 10, lo cual nos indica que este modelo se ajusta mucho mejor a estos datos
 
 
