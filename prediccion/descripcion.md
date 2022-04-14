@@ -1,6 +1,6 @@
 # Prediccion de popularidad de una canción  
 ## Introducción
-En este apartado hemos intentado diseñar un modelo con el cual nos permita predecir la poplaridad de una canción basada en distintos rasgos. cabe añadir antes de empezar que el archivo de los datos es de solo 50 filas por lo que no se esperan buenos resultados de ante mano.  
+En este apartado hemos intentado diseñar un modelo con el cual nos permita predecir la poplaridad de una canción basada en distintos rasgos. Cabe añadir antes de empezar que el archivo de los datos es de solo 50 filas por lo que no se esperan buenos resultados de ante mano.  
 Para ello lo primero que hemos realizado es observar la relacion que existen entre las variables a traves de un mapa de correlaciones como el siguiente  
 ![ca](https://user-images.githubusercontent.com/91338053/163430861-acb5d4ee-54e9-4a1b-a25b-43073d82c82d.PNG)  
 
