@@ -1,11 +1,12 @@
 # Prediccion de popularidad de una canción  
 ## Introducción
 En este apartado hemos intentado diseñar un modelo con el cual nos permita predecir la poplaridad de una canción basada en distintos rasgos. Cabe añadir antes de empezar que el archivo de los datos es de solo 50 filas por lo que no se esperan buenos resultados de ante mano.  
+#### Mapa de calor
 Para ello lo primero que hemos realizado es observar la relacion que existen entre las variables a traves de un mapa de correlaciones como el siguiente  
 ![ca](https://user-images.githubusercontent.com/91338053/163430861-acb5d4ee-54e9-4a1b-a25b-43073d82c82d.PNG)  
 
 Como podemos observar si nos fijamos en la columna de de popularidad que es la que nos interesa veremos que hay poca relación entre cualquier variable y esta, lo que nos indica con antelación que la elaboración de un modelo para la predicción de este dato no arroja muy buen futuro, aun así seguiremos adelante ya que es interesante ver el proceso y la predicción de otro dato carece de mucho sentido.  
-
+#### Pairplot
 El siguiente paso ha sido realizar esta comparacion pero de manera gráfica para observar si existe alguna relación tanto lineal como inversa de alguno de los datos. Además, nos permite ver la distribución de cada una de las variables, nuestro objetivo será el de que se asemjen lo mas posible a una distribución normal.  
 Las imágenes ya se han tomado con anterioridad y se encuentran en la carpeta de Analisis de Datos asi como en el texto adjuntado en dicha carpeta. 
 ![pair](https://user-images.githubusercontent.com/91338053/163430954-b0ec8341-7cd6-40ec-aa16-02c491f22692.PNG)  
